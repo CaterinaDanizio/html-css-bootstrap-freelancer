@@ -11,18 +11,43 @@ img {
 
 [class*="col-"] {
   border: 1px black solid;
-  background-color: salmon;
+  /* background-color: salmon; */
   min-height: 100px;
+}
+
+/* Menu di navigazione */
+
+#main-menu {
+  background-color: #000033;
+  width: 100%;
+}
+.menu-left, .menu-right {
+  padding: 0 20%;
+  color: white;
 }
 
 li, a {
   text-decoration: none;
   list-style: none;
   display: inline-block;
-  color: black;
-  padding-top: 15px;
+  color: white;
+  padding: 5%;
 }
 
-h2 {
+/* Jumbotron */
+#jumbotron {
+  min-height: 200px;
+  margin-bottom: 5%;
+  background-color: #00b386;
+}
+
+.jumbotron-content {
   text-align: center;
+  color: white;
+  padding: 20px 5px;
+}
+
+span {
+  font-size: 15px;
+
 }
