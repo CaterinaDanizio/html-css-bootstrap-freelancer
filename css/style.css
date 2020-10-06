@@ -140,4 +140,27 @@ textarea {
  /* Footer */
 footer {
   background-color: #262673;
+  color: white;
+  text-align: center;
+}
+
+footer > p {
+  text-align: center;
+}
+
+footer a {
+  color: #00e6e6;
+}
+
+.social i {
+  padding: 10px;
+  border: 2px solid white;
+  border-radius: 50%;
+  margin: 0 10px;
+  height: 10px;
+}
+
+.social i:hover {
+  background-color: white;
+  color: #2c3e50;
 }
