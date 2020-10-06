@@ -15,6 +15,8 @@ img {
   min-height: 100px;
 }
 
+body {font-family: 'Montserrat', sans-serif;}
+
 /* Menu di navigazione */
 
 #main-menu {
@@ -34,6 +36,7 @@ li, a {
   padding: 5%;
 }
 
+
 /* Jumbotron */
 #jumbotron {
   min-height: 200px;
@@ -49,5 +52,92 @@ li, a {
 
 span {
   font-size: 15px;
+}
 
+/* Portfolio */
+.title-section {
+  text-align: center;
+}
+
+#portfolio {
+  width: 85%;
+  margin: 0 auto;
+  padding-bottom: 10%;
+}
+
+.portfolio-title {
+  text-align: center;
+}
+
+/* About */
+section#about {
+  background-color: #00ccff;
+  text-align: center;
+  color: white;
+}
+#about-container, #contact-container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.text-about {
+  text-align: justify;
+  letter-spacing: 0.2rem;
+  padding-right: 5%;
+}
+
+.CTA {
+  width: 80%;
+  border: 2px white;
+  border-style: groove;
+  border-radius: 10%;
+  margin: 0 auto;
+  color: white;
+}
+.CTA a {
+  text-decoration: none;
+  padding: 10%;
+  text-align: center;
+}
+
+.CTA:hover {
+  text-decoration: none;
+  color: black;
+  background-color: white;
+}
+
+.CTA a:hover {
+  color: black;
+}
+
+
+/* Contact */
+
+ input, textarea {
+   border: none;
+   border-bottom: 1px lightgrey solid;
+   width: 100%;
+   font-size: 2rem;
+   padding: 2% 0;
+ }
+
+textarea {
+  border: none;
+}
+ input:last-child {
+   background-color: #00ccff;
+   width: 10%;
+   color: white;
+   padding: 2%;
+   border-radius: 10%;
+   margin-bottom: 10%;
+ }
+
+ input:last-child:hover {
+   background-color: #009999;
+ }
+
+ /* Footer */
+footer {
+  background-color: #262673;
 }
