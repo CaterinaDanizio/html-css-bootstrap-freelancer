@@ -24,7 +24,6 @@ body {font-family: 'Montserrat', sans-serif;}
 
 nav {
   background-color: #000033;
-
 }
 
 .menu-left, .menu-right {
@@ -47,13 +46,6 @@ li, a {
   padding: 0 2%;
 }
 
-.hamburger-menu > span {
-  border: 1px solid #1abc9c;
-  background-color: #1abc9c;
-  border-radius: 25%;
-  padding: 5%;
-  text-decoration: none;
-}
 
 
 /* Jumbotron */
@@ -84,10 +76,9 @@ span {
   padding-bottom: 10%;
 }
 
-.portfolio-title {
-  text-align: center;
+#portfolio img {
+  margin-bottom: 10%;
 }
-
 /* About */
 section#about {
   background-color: #00ccff;
@@ -105,17 +96,17 @@ section#about {
   padding-right: 5%;
 }
 
-.CTA {
-  width: 80%;
+div.CTA {
+  margin: 0 auto;
+  color: white;
   border: 2px white;
   border-style: groove;
   border-radius: 10%;
-  margin: 0 auto;
-  color: white;
+  padding: 5%;
 }
+
 .CTA a {
   text-decoration: none;
-  padding: 10%;
   text-align: center;
 }
 
@@ -145,7 +136,7 @@ textarea {
 }
  input:last-child {
    background-color: #00ccff;
-   width: 10%;
+   width: 30%;
    color: white;
    padding: 2%;
    border-radius: 10%;
